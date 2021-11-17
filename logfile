@@ -14,3 +14,17 @@
 2021-11-16 12:35:56.976 PST [9812] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2021-11-16 12:35:57.016 PST [9813] LOG:  database system was shut down at 2021-11-15 16:28:08 PST
 2021-11-16 12:35:57.028 PST [9812] LOG:  database system is ready to accept connections
+2021-11-16 13:00:39.497 PST [9812] LOG:  received smart shutdown request
+2021-11-16 13:00:39.500 PST [9812] LOG:  background worker "logical replication launcher" (PID 9819) exited with exit code 1
+2021-11-16 13:00:39.500 PST [9814] LOG:  shutting down
+2021-11-16 13:00:39.516 PST [9812] LOG:  database system is shut down
+2021-11-16 15:45:20.156 PST [5161] LOG:  starting PostgreSQL 13.2 on x86_64-apple-darwin18.7.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.17), 64-bit
+2021-11-16 15:45:20.160 PST [5161] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-16 15:45:20.160 PST [5161] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-16 15:45:20.161 PST [5161] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-16 15:45:20.203 PST [5162] LOG:  database system was shut down at 2021-11-16 13:00:39 PST
+2021-11-16 15:45:20.222 PST [5161] LOG:  database system is ready to accept connections
+2021-11-16 17:37:16.134 PST [5161] LOG:  received smart shutdown request
+2021-11-16 17:37:16.138 PST [5161] LOG:  background worker "logical replication launcher" (PID 5168) exited with exit code 1
+2021-11-16 17:37:16.138 PST [5163] LOG:  shutting down
+2021-11-16 17:37:16.153 PST [5161] LOG:  database system is shut down
