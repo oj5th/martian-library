@@ -17,7 +17,7 @@ module Mutations
         title: title,
         description: description,
         image_url: image_url,
-        uesr: context[:current_user]
+        user: context[:current_user]
       )
 
       if item.save
