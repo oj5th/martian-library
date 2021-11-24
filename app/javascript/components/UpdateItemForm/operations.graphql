@@ -11,10 +11,7 @@ mutation UpdateItemMutation(
     imageUrl: $imageUrl
   ) {
     item {
-      id
-      title
-      description
-      imageUrl
+      ...ItemFragment
     }
   }
 }
