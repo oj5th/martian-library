@@ -6,10 +6,11 @@ import ProcessItemForm from "../ProcessItemForm";
 
 const AddItemForm = () => (
   <Mutation mutation={AddItemMutation}>
-    {(addItem, { loading }) => (
+    {(addItem, { loading, data }) => (
       <ProcessItemForm
         buttonText="Add Item"
         loading={loading}
+        errors={data && data.addItem.errors}
         // Update library query after Mutation will be finished
         onProcessItem={({ title, description, imageUrl }) =>
           addItem({

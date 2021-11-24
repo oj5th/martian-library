@@ -22,7 +22,7 @@ const UserInfo = () => {
                   });
                 }}
               >
-                {(signIn, { loading: authenticating }) =>
+                {(signIn, { loading: authenticating, error }) =>
                   authenticating ? (
                     "..."
                   ) : (
